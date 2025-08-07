@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+.play-root { position: relative; height: 100svh; overflow: hidden; background: #0c0d10; }
+.viewport { width: 100%; height: 100%; display: block; }
+.hud { position: absolute; color: #f5f7fa; font-weight: 600; text-shadow: 0 1px 2px rgba(0,0,0,0.6); }
+.top-left { top: 12px; left: 12px; }
+.top-right { top: 12px; right: 12px; display: flex; gap: 12px; align-items: center; }
+.bottom { bottom: 10px; left: 50%; transform: translateX(-50%); background: rgba(0,0,0,0.4); padding: 6px 10px; border-radius: 6px; font-weight: 500; }
+.setting { display: inline-flex; align-items: center; gap: 6px; background: rgba(0,0,0,0.45); padding: 6px 8px; border-radius: 6px; }
+.setting select { background: #20242e; border: 1px solid #394155; color: #e9eef8; border-radius: 4px; padding: 4px 6px; }
