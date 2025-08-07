@@ -1,0 +1,8 @@
+[
+  { "id": "npc_bard", "type": "npc", "grid": [4, 4], "label": "Bard of Blogs", "examine": "Stories and notes from my journeys.", "linkUrl": "https://example.com/blog" },
+  { "id": "npc_keeper", "type": "npc", "grid": [7, 5], "label": "Keeper of Photos", "examine": "Galleries of captured moments.", "linkUrl": "https://example.com/photos" },
+  { "id": "npc_messenger", "type": "npc", "grid": [2, 6], "label": "Messenger", "examine": "Send a raven my way.", "linkUrl": "mailto:me@example.com" },
+  { "id": "obj_chest", "type": "object", "grid": [6, 2], "label": "Chest of Projects", "examine": "Opens to code and creations.", "linkUrl": "https://github.com/yourname" },
+  { "id": "obj_scroll", "type": "object", "grid": [3, 2], "label": "Scroll of Resume", "examine": "Credentials and chronicles.", "linkUrl": "https://example.com/resume.pdf" },
+  { "id": "obj_board", "type": "object", "grid": [8, 7], "label": "Town Board", "examine": "Announcements and updates.", "linkUrl": "https://example.com/projects" }
+]
