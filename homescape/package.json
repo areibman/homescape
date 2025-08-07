@@ -15,9 +15,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@babylonjs/core": "^6.55.0",
-    "@babylonjs/gui": "^6.55.0",
-    "@babylonjs/loaders": "^6.55.0",
+    "@babylonjs/core": "^8.22.0",
+    "@babylonjs/gui": "^8.22.0",
+    "@babylonjs/loaders": "^8.22.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.28.0"
