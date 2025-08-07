@@ -1,0 +1,70 @@
+{
+  "entities": [
+    {
+      "id": "bard",
+      "type": "npc",
+      "position": { "x": 3, "z": 7 },
+      "name": "Bard of Blogs",
+      "description": "A storyteller who chronicles adventures and thoughts",
+      "examineText": "The bard strums a lute and hums melodiously. They seem eager to share stories.",
+      "linkUrl": "https://example.com/blog",
+      "linkTitle": "Personal Blog",
+      "linkDescription": "Read my latest thoughts, adventures, and musings about technology, life, and everything in between."
+    },
+    {
+      "id": "keeper",
+      "type": "npc",
+      "position": { "x": 7, "z": 3 },
+      "name": "Keeper of Photos",
+      "description": "A guardian of visual memories and captured moments",
+      "examineText": "The keeper holds an ornate album, filled with captured moments and memories.",
+      "linkUrl": "https://example.com/photos",
+      "linkTitle": "Photo Gallery",
+      "linkDescription": "Explore my photography collection - landscapes, portraits, and moments from travels around the world."
+    },
+    {
+      "id": "messenger",
+      "type": "npc",
+      "position": { "x": 2, "z": 2 },
+      "name": "Messenger",
+      "description": "A friendly courier who facilitates communication",
+      "examineText": "The messenger carries scrolls and letters, ready to deliver your words anywhere.",
+      "linkUrl": "mailto:hello@example.com",
+      "linkTitle": "Contact Me",
+      "linkDescription": "Send me a message! I'd love to hear from you about projects, opportunities, or just to say hello."
+    },
+    {
+      "id": "chest",
+      "type": "object",
+      "position": { "x": 8, "z": 8 },
+      "name": "Chest of Projects",
+      "description": "An ancient chest containing coding treasures and digital artifacts",
+      "examineText": "The chest is ornately carved with symbols of code and creativity. It glows with digital energy.",
+      "linkUrl": "https://github.com",
+      "linkTitle": "GitHub Projects",
+      "linkDescription": "Explore my code repositories, open source contributions, and technical projects."
+    },
+    {
+      "id": "scroll",
+      "type": "object",
+      "position": { "x": 5, "z": 5 },
+      "name": "Scroll of Resume",
+      "description": "A mystical scroll detailing professional accomplishments",
+      "examineText": "The scroll unfurls to reveal a detailed account of skills, experience, and achievements.",
+      "linkUrl": "https://example.com/resume.pdf",
+      "linkTitle": "Professional Resume",
+      "linkDescription": "View my professional background, skills, and work experience in detail."
+    },
+    {
+      "id": "crystal",
+      "type": "object",
+      "position": { "x": 1, "z": 8 },
+      "name": "Crystal of Knowledge",
+      "description": "A glowing crystal that holds wisdom and learning",
+      "examineText": "The crystal pulses with inner light, containing vast knowledge and insights.",
+      "linkUrl": "https://example.com/learning",
+      "linkTitle": "Learning & Skills",
+      "linkDescription": "Discover my continuous learning journey, certifications, and areas of expertise."
+    }
+  ]
+}
