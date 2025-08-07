@@ -1,0 +1,64 @@
+{
+  "entities": [
+    {
+      "id": "bard-of-blogs",
+      "type": "npc",
+      "name": "Bard of Blogs",
+      "position": { "x": 5, "z": 3 },
+      "examineText": "A melodious storyteller eager to share tales from the blog.",
+      "linkUrl": "https://blog.example.com",
+      "linkTitle": "Personal Blog",
+      "linkDescription": "Read my latest thoughts, tutorials, and stories."
+    },
+    {
+      "id": "keeper-of-photos",
+      "type": "npc",
+      "name": "Keeper of Photos",
+      "position": { "x": 3, "z": 7 },
+      "examineText": "A meticulous curator of visual memories.",
+      "linkUrl": "https://photos.example.com",
+      "linkTitle": "Photo Gallery",
+      "linkDescription": "Browse through my photography collection."
+    },
+    {
+      "id": "messenger",
+      "type": "npc",
+      "name": "Messenger",
+      "position": { "x": 8, "z": 5 },
+      "examineText": "Always ready to deliver your messages.",
+      "linkUrl": "mailto:contact@example.com",
+      "linkTitle": "Contact Me",
+      "linkDescription": "Send me a message or connect on social media."
+    },
+    {
+      "id": "chest-of-projects",
+      "type": "object",
+      "name": "Chest of Projects",
+      "position": { "x": 2, "z": 2 },
+      "examineText": "A sturdy chest containing various project artifacts.",
+      "linkUrl": "https://github.com/username",
+      "linkTitle": "GitHub Projects",
+      "linkDescription": "Explore my open source projects and contributions."
+    },
+    {
+      "id": "scroll-of-resume",
+      "type": "object",
+      "name": "Scroll of Resume",
+      "position": { "x": 7, "z": 8 },
+      "examineText": "An ornate scroll detailing professional experience.",
+      "linkUrl": "https://resume.example.com",
+      "linkTitle": "Resume/CV",
+      "linkDescription": "View my professional experience and skills."
+    },
+    {
+      "id": "crystal-of-knowledge",
+      "type": "object",
+      "name": "Crystal of Knowledge",
+      "position": { "x": 5, "z": 5 },
+      "examineText": "A glowing crystal pulsing with accumulated wisdom.",
+      "linkUrl": "https://about.example.com",
+      "linkTitle": "About Me",
+      "linkDescription": "Learn more about who I am and what I do."
+    }
+  ]
+}
