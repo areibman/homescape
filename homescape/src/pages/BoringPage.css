@@ -1,0 +1,125 @@
+/* Boring Page - Minimal, accessible styling */
+.boring-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+.boring-header {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.boring-header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.boring-header p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.boring-main {
+  margin-bottom: 50px;
+}
+
+.boring-section {
+  margin-bottom: 30px;
+}
+
+.boring-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.boring-links {
+  list-style: none;
+  padding: 0;
+}
+
+.boring-links li {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.boring-link {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.boring-link:hover {
+  text-decoration: underline;
+}
+
+.boring-link:focus {
+  outline: 2px solid #0066cc;
+  outline-offset: 2px;
+}
+
+.boring-description {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.boring-footer {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .boring-container {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .boring-links li {
+    border: 1px solid #000;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .boring-container {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+  }
+  
+  .boring-header {
+    border-bottom-color: #444;
+  }
+  
+  .boring-section h2 {
+    color: #ccc;
+  }
+  
+  .boring-links li {
+    background-color: #2a2a2a;
+  }
+  
+  .boring-link {
+    color: #66b3ff;
+  }
+  
+  .boring-description {
+    color: #aaa;
+  }
+  
+  .boring-footer {
+    border-top-color: #444;
+    color: #aaa;
+  }
+}
